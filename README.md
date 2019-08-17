@@ -5,7 +5,7 @@
 This project was built for the Udacity Intro to Programming Nanodegree Program.
 The purpose of the project is to demonstrate understanding of JavaScript and browser events.
 
-![screenshot](screenshot.png)
+![screenshot](Screenshot.png)
 
 
 ## Download instructions
