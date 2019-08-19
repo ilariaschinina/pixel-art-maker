@@ -2,7 +2,7 @@
 let grid = document.querySelector('table');
 const button = document.querySelector('[type=submit]');
 button.addEventListener('click', submitClick);
-grid.addEventListener('mousedown', startColoring, true);
+grid.addEventListener('mousedown', whichMouseButton, true);
 grid.addEventListener('mouseup', stopColoring, true);
 
 function makeGrid() {
@@ -54,3 +54,23 @@ function changeColor(e) {
 function stopColoring() {
     grid.removeEventListener('mouseover', changeColor);    
 }
+
+function erase(e) {
+    if (e.target.nodeName === 'TD') {
+        e.target.style.removeProperty("background-color");
+    };
+}
+
+function whichMouseButton(e) {
+    let mouseButton = e.button;
+    if (mouseButton === 0) {
+        startColoring(e);
+    } else if (mouseButton === 2) {
+        //don't open contenxt menu
+        grid.oncontextmenu = function () {
+            return false;
+        }
+        erase(e);
+    }       
+}
+
