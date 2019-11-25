@@ -19,6 +19,6 @@ Unzip the folder and open `index.html` on your favorite browser.
 4. Click on "Submit" to clear the table.
 
 
-## Udacity Resources:
+## Udacity Resources
 * [Starter Code](https://github.com/udacity/project-pixel-art-maker-starter)
 
