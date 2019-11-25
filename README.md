@@ -1,8 +1,7 @@
 # Pixel Art Maker Project
 
-## About the project:
-
-This project was built for the Udacity Intro to Programming Nanodegree Program.
+## About the project
+This project was built for [Udacity Intro to Programming Nanodegree Program](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000).
 The purpose of the project is to demonstrate understanding of JavaScript and browser events.
 
 ![screenshot](Screenshot.png)
